@@ -17,7 +17,8 @@ $git add 你写的文件代码名称
 
 $git commit -m '对它的描述'
 
-$git push origin master 发送你提交在GitHub的分支
+$git push origin master 
+发送你提交在GitHub的分支
 
 
 
