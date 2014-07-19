@@ -1,19 +1,25 @@
-A simple blog
+气泡项目将在这个最简单的博客系统去完善
+======
 
-The blog function:
-1.registered and login
-2.post artucle
-3.upload file
-4.edit and delete posts
-5.archives
-6.label
-7.paging
-8.leave a message
-9.user's personal homepage
-10.the pv statistic and message statistics
-11.avatar
-12.search
-13.frindly link
-14.404
-15.reprint
-16.journal
+这个系统使用了node的express
+
+代码提交到这https://github.com/zhanghuangang/a-simple-blog
+
+首先大家都先安装node和git
+
+然后使用$git clone https://github.com/zhanghuangang/a-simple-blog.git克隆到自己本地
+
+运行：node app
+
+提交过程：
+
+$git add 你写的文件代码名称
+
+$git commit -m '对它的描述'
+
+$git push origin master
+#发送你提交在GitHub的分支
+
+
+
+
