@@ -3,9 +3,9 @@
     <% var lastYear = 0 %>
     <% posts.forEach(function (post, index) { %>
     <% if (lastYear != post.time.year) { %>
-    <li><h3><%= post.time.year %></h3></li>
+    <li><h2 class="text-muted"><%= post.time.year %></h2></li>
     <% lastYear=post.time.year } %>
-    <li><time><%= post.time.day %></time></li>
+    <li><small class="text-muted pull-right"><%= post.time.day %></small></li>
     <li><a href="/u/<%= post.name %>/<%= post.time.day %>/<%= post.title %>"><%= post.title %></a></li>
     <% }) %>
 </ul>
